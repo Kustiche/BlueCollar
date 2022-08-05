@@ -1,0 +1,96 @@
+.future
+  padding-top: 130px
+  padding-bottom: 110px
+
+  &__wrap
+    display: flex
+    justify-content: center
+
+  &__image
+    margin-right: 50px
+    @media (max-width: 1250px )
+      display: none
+
+  &__content-wrap
+    padding-top: 20px
+    max-width: 575px
+
+  &__greeting-wrap
+    margin-bottom: 20px
+    padding: 0 20px
+    display: flex
+    align-items: center
+    max-width: 250px
+    background-color: $wild-sand
+    @media (max-width: 420px)
+      margin-bottom: 0
+
+  &__icon
+    margin-right: 10px
+
+  &__descr
+    font-weight: 400
+    font-size: 18px
+    color: $cloud-burst
+
+  &__title
+    margin: 0
+    margin-bottom: 10px
+    font-family: 'Mulish', sans-serif
+    font-weight: 400
+    font-size: 45px
+    line-height: 58px
+    color: $cloud-burst
+    @media (max-width: 640px)
+      font-size: 35px
+    @media (max-width: 420px)
+      font-size: 25px
+      margin-bottom: 0
+
+  &__text
+    margin: 0
+    margin-bottom: 10px
+    font-weight: 400
+    font-size: 18px
+    &:last-child
+      margin-bottom: 15px
+
+  &__list-wrap
+    display: flex
+    justify-content: space-between
+    @media (max-width: 640px)
+      justify-content: center
+      flex-wrap: wrap
+
+  &__list
+    list-style: none
+    margin: 0
+    padding: 20px 40px 0 0
+    @media (max-width: 640px)
+      padding-right: 0
+
+  &__item
+    margin-bottom: 10px
+
+.card
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 25px 45px 40px 45px
+  max-width: 200px
+  background: $wild-sand
+  &__title
+    margin: 0
+    margin-bottom: 15px
+    font-family: 'Mulish', sans-serif
+    font-weight: 400
+    font-size: 80px
+    line-height: 88px
+    color: $yellow-orange
+  &__text
+    font-family: 'Mulish', sans-serif
+    font-weight: 400
+    font-size: 20px
+    line-height: 26px
+    text-align: center
+    color: $cloud-burst
